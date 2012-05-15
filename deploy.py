@@ -41,7 +41,7 @@ def check_selinux():
     if os.path.exists('/sbin/restorecon'):
         # do a restorecon on our homedir
         print "SELinux detected. Restoring file security contexts on %s" % homedir
-        cmd = '/sbin/restorecon %s' % homedir
+        cmd = '/sbin/restorecon -r %s' % homedir
         os.system(cmd)
 
 def install():
