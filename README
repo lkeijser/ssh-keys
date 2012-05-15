@@ -8,5 +8,11 @@ all permissions and ownership correctly.
 It will remove existing users that aren't
 present in the SSH keys file.
 
+Edit ssh-keys-file and review deploy.py
+then simply run:
+
+$ python deploy.py
+
+
 L.S. Keijser <leon@gotlinux.nl>
 
