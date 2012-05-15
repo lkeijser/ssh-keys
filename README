@@ -1,0 +1,12 @@
+This script takes care of managing users
+on a system. 
+
+Running deploy.py will create the user,
+place its SSH keyfile in the homedir and set
+all permissions and ownership correctly.
+
+It will remove existing users that aren't
+present in the SSH keys file.
+
+L.S. Keijser <leon@gotlinux.nl>
+
